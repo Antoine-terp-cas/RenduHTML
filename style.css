@@ -1,0 +1,28 @@
+img{
+	max-width: 50%;
+	height: auto;
+}
+header section.cssfixer {
+    display: flex;
+    justify-content: space-between;
+}
+div{
+    width: 50%;
+}
+main{
+    margin-top: -240px;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: end;
+}
+@media screen and (max-width: 705px) {
+  img{
+    display: none;
+  }
+}
+th{
+  text-align: center;
+}
