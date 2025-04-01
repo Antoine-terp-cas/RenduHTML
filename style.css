@@ -1,3 +1,14 @@
+body{
+  background: linear-gradient(white 0%, grey 100%);
+}
+nav a{
+  color: rgb(255, 0, 0);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover{
+  color: blue;
+}
 img{
 	max-width: 50%;
 	height: auto;
@@ -25,4 +36,7 @@ aside{
 }
 th{
   text-align: center;
+}
+footer a:hover{
+  color: red;
 }
